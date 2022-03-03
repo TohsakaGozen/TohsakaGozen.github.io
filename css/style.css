@@ -1,0 +1,143 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.box{
+display: flex;
+position: relative;
+background-color: rgb(253, 253, 150,0.3);
+left: 20.5em;
+top: 70px;
+width: 55em;
+height: 40em;
+border-radius: 30px;
+box-shadow: 50%;
+box-shadow: 0 0 1rem 0.2rem rgb(0 0 0 / 10%);
+}
+
+.left{
+    position: relative;
+    width: 60%;
+    height: 100%;
+   
+}
+
+#img1{
+    z-index: 500000;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 30px 10px 10px 30px;
+    
+}
+
+.right{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+h4{
+    position: absolute;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(77, 77, 29);
+    font-size: 50px;
+    top: 70px;
+    font-weight: 500;
+  
+    letter-spacing: 30px;
+    left: 570px;
+   
+}
+.sub{
+    position: relative;
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    background-color: rgb(243, 239, 220);
+    left: 160px;
+     top: 1em;
+     font-family: fantasy;
+     color: rgb(150, 241, 241);
+    font-size: 3em;
+    border-radius: 20px;
+    padding: 5px;
+    border-color: rgb(244, 252, 136);
+    box-shadow: 0 0 1rem 0.2rem rgb(0 0 0 / 10%);
+}
+#a1{
+    position: relative;
+    top: 19em;
+  z-index: 100;
+    right: 110px;
+    font-family: fantasy;
+    text-decoration: none;
+    color: rgb(61, 63, 32);
+}
+#a2{
+    
+    position: relative;
+    top: 17.7em;
+  z-index: 100;
+  left: 105px;
+  font-family: fantasy;
+  text-decoration: dotted;
+  color: rgb(61, 63, 24);
+}
+
+#a1:hover{
+    color: aqua;
+}
+#a2:hover{
+    color: aqua;
+}
+
+.sub:hover{
+    color: rgb(246, 255, 127);
+}
+form{
+    position: relative;
+    text-align: center;
+   flex-wrap: wrap;
+   padding: 10px;
+   top: 160px;
+}
+
+#css{
+    border-radius: 10px;
+    width: 18rem;
+    height: 3rem;
+    padding: 20px;
+    margin: 8px;
+    background-color: rgb(255, 247, 231);
+    border-color: rgb(68, 39, 3);
+}
+.bg{
+    background-image: url(../images/03a99beb6b491d215e0a0c980bd9f010a823e16d.jpg);
+    z-index: -5;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-size: cover;
+    opacity: 0.6;
+}
+
+#bu1{
+    position: absolute;
+    z-index: 10000;
+    top: 45em;
+    left: 60em;
+    font-family: fantasy;
+    color: rgb(150, 241, 241);
+  border: 0cm;
+   border-radius: 20px;
+   padding: 5px;
+   box-shadow: 0 0 1rem 0.2rem rgb(0 0 0 / 10%);
+}
+
+#bu1:hover{
+    color: aqua;
+}
