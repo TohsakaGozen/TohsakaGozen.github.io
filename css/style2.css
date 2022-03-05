@@ -35,6 +35,13 @@
 .click{
     clear: both;
 }
+
+.return{
+    top: 1%;
+    position: fixed;
+    left: 97%;
+    border: 3px rgb(143, 128, 128) solid;
+}
 .box1{
   
     color: rgb(34, 33, 31);

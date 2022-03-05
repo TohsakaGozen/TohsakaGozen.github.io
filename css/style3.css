@@ -96,13 +96,32 @@ a{
 a:hover{
     color: aqua;
 }
+
+.page4{
+    position: fixed;
+    left: 92%;
+    bottom: 0%;
+    border: 3px;
+    text-align: center;
+    z-index: 999;
+    border: 3px rgb(7, 8, 8) solid;
+    background-color: rgb(255, 242, 225,0.5);
+}
 .bg{
     z-index: -999;
     background-image: url(../images/background.jpg);
     position: fixed;
+    background-size: cover;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
     opacity: 0.3;
+}
+
+.return{
+    top: 1%;
+    position: fixed;
+    left: 96%;
+    border: 3px rgb(3, 3, 3) solid;
 }

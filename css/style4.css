@@ -1,0 +1,248 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.bg{
+    position: fixed;
+    background-image: radial-gradient( circle 400px at 6.8% 8.3%,  rgb(245, 243, 230) 0%, rgba(255,244,234,1) 100.2% );
+    background-image: url(../images/backg2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: -300;
+    opacity: 0.4;
+}
+.author h4{
+    position: absolute;
+    height: auto;
+    left: 91.5%;
+    top: 11%;
+    font-family: fantasy;
+}
+
+
+.author img{
+    position: absolute;
+    width: 5%;
+    height: 10%;
+    left: 95%;
+    top: 6.5%;
+    border-radius: 80px;
+    box-shadow: 0 0 1rem 0.2rem rgb(0 0 0 / 10%);
+}
+
+.return{
+    top: 1%;
+    position: fixed;
+    left: 96%;
+    border: 3px rgb(3, 3, 3) solid;
+}
+.Header{
+    display: block;
+    position: absolute;
+    width: 30%;
+    height: auto;
+    top: 5.5%;
+    left: 40%;
+    z-index: 333;
+}
+.Header h3{
+    
+    text-align: center;
+    color: rgba(0, 0, 0, 0.8) ;
+    font-family: fantasy;
+    font-size: 45px;
+  
+}
+.PageLeft{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 8%;
+    height:750%;
+    background-color: rgba(115, 241, 250, 0.3);
+    text-align: center;
+   
+   border: 5px 5px 5px 0px;
+   border-radius: 10px;
+   border-color:  rgb(106, 155, 155);
+   border-style: solid;
+   user-select: none;
+   padding: 10px;
+}
+
+.direction{
+    position:absolute;
+    top: 0.8%;
+    font-size: large;
+    background-color: rgba(0, 178, 248, 0.6);
+    border-radius: 120px;
+    width: 80%;
+    height: 1%;
+    text-align: center;
+    left: 9%;
+
+}
+
+.direction h5{
+    position: relative;
+    top: 16px;
+}
+
+
+#List1{
+    position: relative;
+    top:2%;
+}
+
+.country{
+    position: relative;
+    width: 100%;
+    min-height: 4em;
+    margin:1em 0em 1em 0em;
+    text-align: center;
+    padding: 40px 0px 0px 0px;
+    font-size: 17px;
+    background-color: rgba(89, 255, 255, 0.3);
+    border-radius: 120px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.country:hover{
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+}
+
+
+.country:hover .job{
+    display:block;
+    position: absolute;
+    top: -150%;
+    width: auto;
+    height:auto;
+    z-index: 500;
+    left: 80%;
+    background-color: rgb(212, 255, 255,0.5);
+    border: 3px rgb(252, 255, 208,0.6) solid;
+    border-radius: 15px;
+    
+}
+.job li{
+    position: relative;
+    padding: 0px 0px 0px 0px;
+    line-height: 60px;
+  
+}
+
+
+
+.job{
+    display: none;
+    
+}
+
+.servant{
+  display: none;
+}
+
+.country:hover.job1{
+    display: block;
+    position: relative;
+    
+}
+
+.job1:hover .servant {
+    display:block;
+    position: absolute;
+    width: 150%;
+    left: 100%;
+    margin-top:  -63px;
+    background-color: rgb(212, 255, 255,0.5);
+    border: 3px rgb(252, 255, 208,0.6) solid;
+    border-radius: 15px;
+}
+
+.servant{
+    position: absolute;
+}
+
+.job  :hover{
+
+    background-color: rgb(212, 255, 255,0.5);
+    
+}
+
+
+a{
+    text-decoration: none;
+    color: rgb(0, 51, 51);
+}
+
+
+
+
+ul{
+    list-style: none;
+}
+
+
+.content{
+    position: relative;
+    width: 85%;
+    height: 100em;
+    background-color: rgb(223, 247, 248,0.1);
+    left: 12%;
+    top:8em;
+    border-radius: 30px;
+    padding: 10px;
+    box-shadow: 0 0 1rem 0.2rem rgb(0 0 0 / 10%);
+}
+
+.box{
+    position: relative;
+    width: 40%;
+    height: 44%;
+    border: 3px rgb(187, 181, 174) solid;
+   padding: 5px;
+   background-color: rgba(200, 219, 223, 0.4);
+   z-index: 2;
+   box-shadow: 0 0 1rem 0.2rem rgb(0 0 0 / 10%);
+   float: left;
+   margin:54px; 
+}
+
+.box:hover{
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.content h2{
+    text-align: center;
+}
+.top{
+    height: 40%;
+}
+
+.img1 img{
+    z-index: -3;
+    position: absolute;
+    width: 45%;
+    height: 60%; 
+    border-radius: 20px;
+    box-shadow: 0 0 1rem 0.2rem rgb(0 0 0 / 10%);
+}
+.img2 img{
+    z-index: -3;
+    position: absolute;
+    width: 45%;
+    height: 60%; 
+    left: 54%;
+    border-radius: 20px;
+    box-shadow: 0 0 1rem 0.2rem rgb(0 0 0 / 10%);
+}
+
+.box p{
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
