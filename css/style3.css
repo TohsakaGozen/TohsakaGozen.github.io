@@ -125,3 +125,23 @@ a:hover{
     left: 96%;
     border: 3px rgb(3, 3, 3) solid;
 }
+
+.author h4{
+    position: absolute;
+    height: auto;
+    left: 91.5%;
+    top: 11%;
+    font-family: fantasy;
+    
+}
+
+
+.author img{
+    position: absolute;
+    width: 5%;
+    height: 10%;
+    left: 95%;
+    top: 6.5%;
+    border-radius: 80px;
+    box-shadow: 0 0 1rem 0.2rem rgb(0 0 0 / 10%);
+}
